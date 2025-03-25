@@ -1,0 +1,32 @@
+[
+    {
+        "OrdemId": 1,
+        "DataCriacao": "/Date(790211059000)/",
+        "CriadoPor": "Marcos",
+        "ClienteId": 778,
+        "TotalItens": 200.50,
+        "TotalFrete": 20.50,
+        "TotalOrdem": 221.00,
+        "Status": "N"
+    },
+    {
+        "OrdemId": 2,
+        "DataCriacao": "/Date(415275756000)/",
+        "CriadoPor": "Carlos",
+        "ClienteId": 814,
+        "TotalItens": 120.00,
+        "TotalFrete": 15.00,
+        "TotalOrdem": 135.00,
+        "Status": "L"
+    },
+    {
+        "OrdemId": 3,
+        "DataCriacao": "/Date(851646291000)/",
+        "CriadoPor": "Maria",
+        "ClienteId": 947,
+        "TotalItens": 300.00,
+        "TotalFrete": 30.00,
+        "TotalOrdem": 330.00,
+        "Status": "F"
+    }
+]
