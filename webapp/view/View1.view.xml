@@ -5,8 +5,17 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <VBox class="sapUiTinyMargin">
-            <Button text="Novo Cliente" press="onNewCustomer" />
-            <Button text="Editar Cliente" press="onEditCustomer" />
+            <Label text="Última Ordem Criada" />
+            <Input text="" id="lastOrderId" editable="false" />
+            <TextArea id="textArea1" value="" rows="8" width="100%" editable="false" />
         </VBox>
+
+        <HBox class="sapUiTinyMargin">
+            <Button text="Criar OV" press="onCreateOVCab" width="150px"/>
+            <Button text="Criar OV (Deep)" press="onCreateDeepOVCab" width="150px"/>
+            <Button text="Ler OV" press="onReadOVCab" width="150px"/>
+            <Button text="Atualizar OV" press="onUpdateOVCab" width="150px"/>
+            <Button text="Deletar OV" press="onDeleteOVCab" width="150px"/>
+        </HBox>
     </Page>
 </mvc:View>
